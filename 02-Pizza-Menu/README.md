@@ -33,4 +33,4 @@ If you are developing a production application, we recommend using TypeScript wi
 
 **This is imperative way of building UI but in react we never touch DOM**
 
-![separation in react]('./public/separation-react.png)
+![separation in react]('./public/separation-react.png')
