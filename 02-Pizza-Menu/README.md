@@ -14,3 +14,20 @@ The React Compiler is not enabled on this template because of its impact on dev 
 ## Expanding the ESLint configuration
 
 If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+## JSX
+
+- every components must return JSX
+- it describes how the components / UI looks like based on currentData which be state or props
+- it is Javascript extension which embedded css html and Javascript together
+- Jsx is converted into React.createElement() by the babel which is understand by the browser
+- It is declarative syntax od building UI
+
+## Imperative
+
+- The Vanilla Js manual selection and DOM traversal
+- manually updated the variables and get desired output
+
+**This is imperative way of building UI but in react we never touch DOM**
+
+![separation in react]('./public/separation-react.png)
